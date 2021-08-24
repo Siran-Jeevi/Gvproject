@@ -2,20 +2,24 @@ package org.git;
 
 public class LibGlobal {
 	
-	private void launchUrl() {
-		System.out.println("this is Rajini Branch");
-		
-		
+	
+	private void launchUrl() 
+	{
+	System.out.println("this is Rajini Branch");
+	
 	}
 	
-	
-	
+	public void getDriver() {
+
+		System.out.println("This is Kamal Branch");
+		
+	}
+		
 	public static void main(String[] args) {
 		
-		LibGlobal l=new LibGlobal(); 
-		l.launchUrl();
-		
+		LibGlobal libGlobal=new LibGlobal();
+		libGlobal.getDriver();
+		libGlobal.launchUrl();
 	}
-	
 
 }
